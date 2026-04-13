@@ -8,7 +8,7 @@ This map describes hub-and-spoke relationships for crawlers and editors. Money p
 | --- | --- |
 | `/commercial-glass-services.html` | `/storefront-glass-repair.html`, `/emergency-board-up.html`, `/glass-replacement.html`, `/247-emergency-service.html`, `/faq.html` |
 | `/residential-glass-services.html` | `/window-glass-repair.html`, `/shower-doors.html`, `/mirrors.html`, `/glass-replacement.html` |
-| `/service-areas.html` | `/locations/downtown-baltimore-glass-repair.html`, `/locations/inner-harbor-glass-repair.html`, `/locations/fells-point-glass-repair.html`, `/locations/towson-glass-repair.html` |
+| `/service-areas.html` | `/locations/downtown-baltimore-glass-repair.html`, `/locations/inner-harbor-glass-repair.html`, `/locations/fells-point-glass-repair.html`, `/locations/towson-glass-repair.html`, `/locations/canton-glass-repair.html`, `/locations/federal-hill-glass-repair.html`, `/locations/mount-vernon-glass-repair.html`, `/locations/charles-village-glass-repair.html`, `/locations/dundalk-glass-repair.html`, `/locations/essex-glass-repair.html`, `/locations/catonsville-glass-repair.html` |
 | `/blog/` | All `/blog/*.html` articles; each article links up to 2–3 money pages and sideways to 1–2 related posts |
 
 ## Topic clusters → money pages
