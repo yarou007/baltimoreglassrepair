@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Business Info
+Name: Baltimore Glass Repair
+Type: Local Service - Glass Repair
+Location: Baltimore, MD
+Services:
+- Emergency glass repair
+- Storefront glass repair
+- Board up services
+- Window glass replacement
