@@ -5,20 +5,32 @@
   <url><loc>https://baltimoreglassrepair.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://baltimoreglassrepair.com/service-areas.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://baltimoreglassrepair.com/commercial-glass-services.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://baltimoreglassrepair.com/commercial-glass-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
   <url><loc>https://baltimoreglassrepair.com/residential-glass-services.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://baltimoreglassrepair.com/emergency-board-up.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://baltimoreglassrepair.com/board-up-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://baltimoreglassrepair.com/storefront-glass-repair.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://baltimoreglassrepair.com/storefront-glass-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+
+  <!-- New SEO-optimized service pages -->
+  <url><loc>https://baltimoreglassrepair.com/emergency-glass-repair-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/storefront-glass-repair-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/board-up-service-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/commercial-glass-repair-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/window-glass-replacement-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/door-glass-repair-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- Existing service pages -->
+  <url><loc>https://baltimoreglassrepair.com/commercial-glass-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/emergency-board-up.html</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/board-up-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/storefront-glass-repair.html</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/storefront-glass-baltimore.html</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://baltimoreglassrepair.com/shower-doors.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://baltimoreglassrepair.com/mirrors.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://baltimoreglassrepair.com/window-glass-repair.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://baltimoreglassrepair.com/glass-replacement.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://baltimoreglassrepair.com/247-emergency-service.html</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/window-glass-repair.html</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/glass-replacement.html</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://baltimoreglassrepair.com/247-emergency-service.html</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://baltimoreglassrepair.com/faq.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://baltimoreglassrepair.com/citations.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://baltimoreglassrepair.com/case-studies.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+
+  <!-- Location pages -->
   <url><loc>https://baltimoreglassrepair.com/locations/downtown-baltimore-glass-repair.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://baltimoreglassrepair.com/locations/inner-harbor-glass-repair.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://baltimoreglassrepair.com/locations/fells-point-glass-repair.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
@@ -31,6 +43,7 @@
   <url><loc>https://baltimoreglassrepair.com/locations/essex-glass-repair.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baltimoreglassrepair.com/locations/catonsville-glass-repair.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
+  <!-- Blog -->
   <url><loc>https://baltimoreglassrepair.com/blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://baltimoreglassrepair.com/blog/who-to-call-247-emergency-glass-repair-baltimore.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://baltimoreglassrepair.com/blog/keep-broken-window-safe-until-glass-repair-arrives.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -49,7 +62,6 @@
   <url><loc>https://baltimoreglassrepair.com/blog/how-baltimore-businesses-reduce-downtime-glass-damage.html</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
   <url><loc>https://baltimoreglassrepair.com/blog/what-to-do-after-vandalism-glass-door.html</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
   <url><loc>https://baltimoreglassrepair.com/blog/tempered-vs-laminated-glass-business.html</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
-
   <url><loc>https://baltimoreglassrepair.com/blog/after-hours-emergency-glass-repair-baltimore.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://baltimoreglassrepair.com/blog/emergency-board-up-cost-factors-baltimore.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://baltimoreglassrepair.com/blog/how-to-secure-broken-glass-door-overnight.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
