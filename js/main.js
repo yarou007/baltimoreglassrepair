@@ -56,22 +56,27 @@
     else if (!event.target.closest(".dropdown")) closeDropdowns();
     var link = event.target.closest("a");
     if (link && nav && nav.contains(link)) closeNavigation();
-    if (
-      !link ||
-      !link.getAttribute("href") ||
-      link.getAttribute("href").indexOf("tel:") !== 0
-    )
-      return;
-    // A click expresses call intent; it does not establish a connected call or lead.
+    if (!link) return;
+    var href = link.getAttribute("href") || "";
+    var whatsapp = href === "https://wa.me/12026434062";
+    if (!whatsapp && href.indexOf("tel:") !== 0) return;
+    // Contact clicks measure intent, not a connected call or sent message.
     var detail = {
-      event: "phone_click",
+      event: whatsapp ? "whatsapp_click" : "phone_click",
       phone_number: "+12026434062",
-      call_location: link.getAttribute("data-call-location") || "content",
+      call_location:
+        link.getAttribute("data-call-location") ||
+        link.getAttribute("data-contact-location") ||
+        "content",
       page_path: window.location.pathname,
     };
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push(detail);
-    window.dispatchEvent(new CustomEvent("phone-click", { detail: detail }));
+    window.dispatchEvent(
+      new CustomEvent(whatsapp ? "whatsapp-click" : "phone-click", {
+        detail: detail,
+      }),
+    );
   });
 
   document.addEventListener("keydown", function (event) {

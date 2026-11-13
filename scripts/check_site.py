@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dependency-free checks for the static site's SEO and phone-only contract."""
+"""Dependency-free checks for the static site's SEO and phone and WhatsApp contract."""
 import json
 import re
 import sys
@@ -74,7 +74,7 @@ for path, page in pages.items():
         continue
     source = path.read_text()
     check(not re.search(r'703[- ]?244[- ]?0559|17032440559|mailto:|<form\b|placeholder=', source, re.I), path, 'old contact details, form or placeholder')
-    check(not any(t in ('form', 'input', 'textarea') for t, _ in page.tags), path, 'phone-only site must not contain forms')
+    check(not any(t in ('form', 'input', 'textarea') for t, _ in page.tags), path, 'phone and WhatsApp site must not contain forms')
     check(not any(n > 1 for n in Counter(page.ids).values()), path, 'duplicate IDs')
     canonical = [a for a in page.select('link') if a.get('rel') == 'canonical']
     check(len(canonical) == 1, path, 'must have one canonical URL')
@@ -84,6 +84,8 @@ for path, page in pages.items():
         check(bool(page.title.strip()), path, 'empty title')
         check(len([a for a in page.select('meta') if a.get('name') == 'description' and a.get('content')]) == 1, path, 'missing/duplicate description')
         check(any(a.get('href') == PHONE for a in page.select('a')), path, 'missing call action')
+        check(any(a.get('href') == 'https://wa.me/12026434062' for a in page.select('a')), path, 'missing WhatsApp action')
+        check(not re.search(r'(?<!\+1 )(?<!\+1-)202-643-4062', source), path, 'displayed number missing country code')
         check(any(a.get('aria-label') for a in page.select('button')), path, 'navigation needs an accessible button name')
         for schema in page.schemas:
             try:

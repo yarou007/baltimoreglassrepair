@@ -14,8 +14,8 @@ node --check js/main.js
 
 ## Contact and content contract
 
-- The only contact number is **202-643-4062**, linked as `tel:+12026434062`.
-- The site is phone-only: no email links, forms, messaging requests or callback submission flow.
+- The only contact number is **+1 202-643-4062**, linked as `tel:+12026434062`.
+- The site is phone and WhatsApp: no email links, forms or callback submission flow.
 - Do not add ratings, reviews, credentials, insurance claims, warranties, affiliations or response-time promises without verified business information.
 - Existing photos are presented without invented client names, locations, dates or project outcomes.
 - Titles, descriptions, Open Graph metadata and structured data must describe visible content. FAQ schema is not a guarantee of Google rich results.
@@ -50,3 +50,7 @@ The checks block external requests and prevent telephone navigation. They test l
 ## Release and external accounts
 
 After deployment, verify HTTPS and HTTP redirect behavior on the actual host, submit the canonical sitemap in Google Search Console, and update the real Google Business Profile and business listings to the new number. Those account changes require access to the corresponding accounts. Keep service-area business details accurate; do not invent a street address or a map pin.
+
+## WhatsApp
+
+Direct chats use `https://wa.me/12026434062`. WhatsApp opens its app or web interface; no message is sent automatically. The receiving number must be registered with WhatsApp. `whatsapp_click` dataLayer events and `whatsapp-click` CustomEvents measure click intent only.

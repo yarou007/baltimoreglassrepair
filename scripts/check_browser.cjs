@@ -77,7 +77,7 @@ function walk(dir) {
         );
       }
       console.log(
-        `PASS: ${routes.length} canonical pages at ${width}px; rendering, phone-only actions and overflow.`,
+        `PASS: ${routes.length} canonical pages at ${width}px; rendering, phone and WhatsApp actions and overflow.`,
       );
     }
     for (const width of [320, 390, 768, 1440]) {
@@ -149,6 +149,44 @@ function walk(dir) {
       events.custom.every((event) => event.phone_number === "+12026434062"),
     );
     assert.equal(new URL(page.url()).pathname, "/");
+    await page.evaluate(() => {
+      window.whatsappEvents = [];
+      window.addEventListener("whatsapp-click", (event) =>
+        window.whatsappEvents.push(event.detail),
+      );
+      document.addEventListener(
+        "click",
+        (event) => {
+          if (event.target.closest('a[href="https://wa.me/12026434062"]'))
+            event.preventDefault();
+        },
+        true,
+      );
+    });
+    assert.equal(
+      await page.locator(".hero .btn-whatsapp").getAttribute("href"),
+      "https://wa.me/12026434062",
+    );
+    await page.locator(".hero .btn-whatsapp").click();
+    await page.locator(".sticky-call .whatsapp-now").click();
+    const whatsappEvents = await page.evaluate(() => window.whatsappEvents);
+    assert.equal(whatsappEvents.length, 2);
+    assert(
+      whatsappEvents.every(
+        (event) =>
+          event.event === "whatsapp_click" &&
+          event.phone_number === "+12026434062",
+      ),
+    );
+    assert.equal(new URL(page.url()).pathname, "/");
+    assert(
+      (await page.locator(".phone-link").innerText()).includes(
+        "+1 202-643-4062",
+      ),
+    );
+    console.log(
+      "PASS: WhatsApp destinations, click events and international phone display; no messages sent.",
+    );
     await page.locator(".faq-item summary").first().click();
     assert(
       await page
