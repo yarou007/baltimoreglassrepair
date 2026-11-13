@@ -1,27 +1,22 @@
-# Internal linking map — Baltimore Glass Repair
+# Internal linking map
 
-This map describes hub-and-spoke relationships for crawlers and editors. Money pages are commercial glass, emergency board up, storefront glass, glass replacement, and 24/7 emergency service.
+The same service menu and footer are shared across all 62 canonical content pages. Every contact action uses `tel:+12026434062`.
 
-## Pillar hubs
+| Intent                     | Primary destination                                        |
+| -------------------------- | ---------------------------------------------------------- |
+| Emergency glass            | `/emergency-glass-repair-baltimore.html`                   |
+| Storefront glass           | `/storefront-glass-repair-baltimore.html`                  |
+| Board-up                   | `/board-up-service-baltimore.html`                         |
+| Window glass               | `/window-glass-replacement-baltimore.html`                 |
+| Door glass                 | `/door-glass-repair-baltimore.html`                        |
+| Commercial services        | `/commercial-glass-services.html`                          |
+| Residential services       | `/residential-glass-services.html`                         |
+| Shower doors               | `/shower-doors.html`                                       |
+| Mirrors                    | `/mirrors.html`                                            |
+| Glass replacement overview | `/glass-replacement.html`                                  |
+| Locations                  | `/service-areas.html` and the existing `/locations/` pages |
+| Photos                     | `/case-studies.html`                                       |
+| Questions and guides       | `/faq.html` and `/blog/`                                   |
+| Phone contact details      | `/contact.html`                                            |
 
-| Hub | Primary child pages |
-| --- | --- |
-| `/commercial-glass-services.html` | `/storefront-glass-repair.html`, `/emergency-board-up.html`, `/glass-replacement.html`, `/247-emergency-service.html`, `/faq.html` |
-| `/residential-glass-services.html` | `/window-glass-repair.html`, `/shower-doors.html`, `/mirrors.html`, `/glass-replacement.html` |
-| `/service-areas.html` | `/locations/downtown-baltimore-glass-repair.html`, `/locations/inner-harbor-glass-repair.html`, `/locations/fells-point-glass-repair.html`, `/locations/towson-glass-repair.html`, `/locations/canton-glass-repair.html`, `/locations/federal-hill-glass-repair.html`, `/locations/mount-vernon-glass-repair.html`, `/locations/charles-village-glass-repair.html`, `/locations/dundalk-glass-repair.html`, `/locations/essex-glass-repair.html`, `/locations/catonsville-glass-repair.html` |
-| `/blog/` | All `/blog/*.html` articles; each article links up to 2–3 money pages and sideways to 1–2 related posts |
-
-## Topic clusters → money pages
-
-- **Emergency / safety** → `/247-emergency-service.html`, `/emergency-board-up.html`, `/contact.html`
-- **Commercial / storefront** → `/commercial-glass-services.html`, `/storefront-glass-repair.html`, `/glass-replacement.html`
-- **Residential** → `/residential-glass-services.html`, `/window-glass-repair.html`
-- **Insurance / ops** → `/faq.html`, `/citations.html`, `/case-studies.html`
-
-## Footer and global CTAs
-
-Every page includes footer NAP, links to core services, and mobile sticky `tel:` + `/contact.html` for conversion consistency.
-
-## Related external (used sparingly)
-
-Regional context links on `/about.html` and selected blog posts: DMV 24/7 Glass Repair, DC Emergency Lock and Door, Arlington 24/7 Lock Repair — only where context supports multi-city operations.
+Legacy overlapping service routes redirect to these destinations; see `_redirects`. New articles should link contextually to the appropriate primary service and relevant location. No new neighborhood pages should be created without useful local information. The gallery uses the existing images rather than hypothetical project stories.

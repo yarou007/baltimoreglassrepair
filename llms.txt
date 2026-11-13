@@ -1,12 +1,21 @@
-User-agent: *
-Allow: /
+# Baltimore Glass Repair
 
-# Business Info
-Name: Baltimore Glass Repair
-Type: Local Service - Glass Repair
-Location: Baltimore, MD
-Services:
-- Emergency glass repair
-- Storefront glass repair
-- Board up services
-- Window glass replacement
+> Glass repair, replacement and temporary board-up for homes and businesses in Baltimore, Maryland and surrounding communities.
+
+Contact by phone: 202-643-4062
+Website: https://www.baltimoreglassrepair.com/
+Call with the service address to confirm coverage, availability and an ETA.
+
+## Services
+- [Emergency glass repair](https://www.baltimoreglassrepair.com/emergency-glass-repair-baltimore.html)
+- [Storefront glass](https://www.baltimoreglassrepair.com/storefront-glass-repair-baltimore.html)
+- [Board-up](https://www.baltimoreglassrepair.com/board-up-service-baltimore.html)
+- [Window glass replacement](https://www.baltimoreglassrepair.com/window-glass-replacement-baltimore.html)
+- [Commercial glass](https://www.baltimoreglassrepair.com/commercial-glass-services.html)
+- [Residential glass](https://www.baltimoreglassrepair.com/residential-glass-services.html)
+
+## Useful information
+- [Service areas](https://www.baltimoreglassrepair.com/service-areas.html)
+- [Photo gallery](https://www.baltimoreglassrepair.com/case-studies.html)
+- [Common questions](https://www.baltimoreglassrepair.com/faq.html)
+- [Call for service](https://www.baltimoreglassrepair.com/contact.html)
