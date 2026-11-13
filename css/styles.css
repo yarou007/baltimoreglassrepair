@@ -1175,3 +1175,18 @@ h2[id] {
     margin-top: -12px;
   }
 }
+.article-byline {
+  padding-top: 24px;
+  padding-bottom: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.local-content > h2:first-child {
+  margin-top: 0;
+}
+.local-content h2 {
+  margin-top: 2rem;
+}
+.local-content a {
+  overflow-wrap: anywhere;
+}

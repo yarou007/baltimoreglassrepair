@@ -24,7 +24,7 @@ node --check js/main.js
 
 `vercel.json` defines nine permanent HTTP 308 redirects for the repository’s Vercel deployment. `_redirects` defines equivalent HTTP 301 redirects for Netlify and Cloudflare Pages. Each retired HTML file also contains a canonical and immediate meta refresh for static hosts that do not read that file. Meta refresh is a fallback, not an HTTP 301. For another hosting provider, configure equivalent server redirects and verify their actual response status before release. Do not reintroduce retired URLs in navigation or the sitemap.
 
-The sitemap contains the 62 canonical content pages, excluding retired routes and the Google verification file. Preserve the Google verification file. The canonical origin is `https://www.baltimoreglassrepair.com`.
+The sitemap contains the 72 canonical content pages, excluding retired routes and the Google verification file. Preserve the Google verification file. The canonical origin is `https://www.baltimoreglassrepair.com`.
 
 ## Images and mobile behavior
 

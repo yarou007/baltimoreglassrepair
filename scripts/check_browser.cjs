@@ -220,6 +220,16 @@ function walk(dir) {
           "/service-areas.html",
           "/case-studies.html",
           "/blog/",
+          "/locations/towson-window-glass-replacement.html",
+          "/locations/canton-storefront-glass-repair.html",
+          "/locations/fells-point-door-glass-repair.html",
+          "/locations/white-marsh-commercial-glass.html",
+          "/blog/canton-storefront-repair-access-plan.html",
+          "/blog/white-marsh-commercial-glass-approval-checklist.html",
+          "/blog/towson-glass-only-or-whole-window.html",
+          "/blog/dundalk-board-up-to-glass-replacement.html",
+          "/blog/parkville-window-condensation-between-panes.html",
+          "/blog/fells-point-door-glass-before-ordering.html",
         ]) {
           await page.goto(origin + route);
           await page.addScriptTag({ content: axeSource });
@@ -245,7 +255,7 @@ function walk(dir) {
         }
       }
       console.log(
-        "PASS: axe WCAG A/AA checks on 6 representative pages at mobile and desktop sizes.",
+        "PASS: axe WCAG A/AA checks on 16 representative pages at mobile and desktop sizes.",
       );
     }
     assert.deepEqual(errors, [], "Browser JavaScript errors");
