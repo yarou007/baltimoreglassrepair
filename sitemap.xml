@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://www.baltimoreglassrepair.com/</loc></url>
   <url><loc>https://www.baltimoreglassrepair.com/about.html</loc></url>
   <url><loc>https://www.baltimoreglassrepair.com/blog/</loc></url>
@@ -36,7 +37,21 @@
   <url><loc>https://www.baltimoreglassrepair.com/blog/white-marsh-commercial-glass-approval-checklist.html</loc></url>
   <url><loc>https://www.baltimoreglassrepair.com/blog/who-to-call-247-emergency-glass-repair-baltimore.html</loc></url>
   <url><loc>https://www.baltimoreglassrepair.com/board-up-service-baltimore.html</loc></url>
-  <url><loc>https://www.baltimoreglassrepair.com/case-studies.html</loc></url>
+  <url>
+    <loc>https://www.baltimoreglassrepair.com/case-studies.html</loc>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/glass-windows-480.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/storefront-door-glass-panel-480.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/commercial-door-closer-480.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/storefront-interior-night-480.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/mirrors-inside-480.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/mirross-inside-store-480.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/doorglassbefore-480.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/doorglassafter-960.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/windowsglassbefore-960.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/windowsglassafter-960.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/board-up-before-960.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.baltimoreglassrepair.com/images/optimized/board-up-after-960.webp</image:loc></image:image>
+  </url>
   <url><loc>https://www.baltimoreglassrepair.com/citations.html</loc></url>
   <url><loc>https://www.baltimoreglassrepair.com/commercial-glass-services.html</loc></url>
   <url><loc>https://www.baltimoreglassrepair.com/contact.html</loc></url>
