@@ -1,12 +1,30 @@
-User-agent: *
-Allow: /
+# Baltimore Glass Repair
 
-# Business Info
-Name: Baltimore Glass Repair
-Type: Local Service - Glass Repair
-Location: Baltimore, MD
-Services:
-- Emergency glass repair
-- Storefront glass repair
-- Board up services
-- Window glass replacement
+> Glass repair, replacement and temporary board-up for homes and businesses in Baltimore, Maryland and surrounding communities.
+
+Contact by phone or WhatsApp: +1 202-643-4062
+Website: https://www.baltimoreglassrepair.com/
+Call with the service address to confirm coverage, availability and an ETA.
+
+## Services
+- [Emergency glass repair](https://www.baltimoreglassrepair.com/emergency-glass-repair-baltimore.html)
+- [Storefront glass](https://www.baltimoreglassrepair.com/storefront-glass-repair-baltimore.html)
+- [Board-up](https://www.baltimoreglassrepair.com/board-up-service-baltimore.html)
+- [Window glass replacement](https://www.baltimoreglassrepair.com/window-glass-replacement-baltimore.html)
+- [Commercial glass](https://www.baltimoreglassrepair.com/commercial-glass-services.html)
+- [Residential glass](https://www.baltimoreglassrepair.com/residential-glass-services.html)
+
+## Useful information
+- [Service areas](https://www.baltimoreglassrepair.com/service-areas.html)
+- [Photo gallery](https://www.baltimoreglassrepair.com/case-studies.html)
+- [Common questions](https://www.baltimoreglassrepair.com/faq.html)
+- [Call for service](https://www.baltimoreglassrepair.com/contact.html)
+
+WhatsApp: https://wa.me/12026434062
+
+## Local service information
+- [Towson window glass replacement](https://www.baltimoreglassrepair.com/locations/towson-window-glass-replacement.html)
+- [Canton storefront glass repair](https://www.baltimoreglassrepair.com/locations/canton-storefront-glass-repair.html)
+- [Fells Point door glass repair](https://www.baltimoreglassrepair.com/locations/fells-point-door-glass-repair.html)
+- [White Marsh commercial glass](https://www.baltimoreglassrepair.com/locations/white-marsh-commercial-glass.html)
+- [Local glass repair guides](https://www.baltimoreglassrepair.com/blog/)

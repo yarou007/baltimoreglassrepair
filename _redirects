@@ -1,0 +1,10 @@
+# Permanent service-page consolidation (Netlify / Cloudflare Pages)
+/storefront-glass-baltimore.html /storefront-glass-repair-baltimore.html 301
+/storefront-glass-repair.html /storefront-glass-repair-baltimore.html 301
+/board-up-baltimore.html /board-up-service-baltimore.html 301
+/emergency-board-up.html /board-up-service-baltimore.html 301
+/commercial-glass-baltimore.html /commercial-glass-services.html 301
+/commercial-glass-repair-baltimore.html /commercial-glass-services.html 301
+/residential-glass-repair-baltimore.html /residential-glass-services.html 301
+/window-glass-repair.html /window-glass-replacement-baltimore.html 301
+/247-emergency-service.html /emergency-glass-repair-baltimore.html 301

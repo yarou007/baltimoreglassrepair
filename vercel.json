@@ -1,0 +1,50 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/storefront-glass-baltimore.html",
+      "destination": "/storefront-glass-repair-baltimore.html",
+      "permanent": true
+    },
+    {
+      "source": "/storefront-glass-repair.html",
+      "destination": "/storefront-glass-repair-baltimore.html",
+      "permanent": true
+    },
+    {
+      "source": "/board-up-baltimore.html",
+      "destination": "/board-up-service-baltimore.html",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-board-up.html",
+      "destination": "/board-up-service-baltimore.html",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-glass-baltimore.html",
+      "destination": "/commercial-glass-services.html",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-glass-repair-baltimore.html",
+      "destination": "/commercial-glass-services.html",
+      "permanent": true
+    },
+    {
+      "source": "/residential-glass-repair-baltimore.html",
+      "destination": "/residential-glass-services.html",
+      "permanent": true
+    },
+    {
+      "source": "/window-glass-repair.html",
+      "destination": "/window-glass-replacement-baltimore.html",
+      "permanent": true
+    },
+    {
+      "source": "/247-emergency-service.html",
+      "destination": "/emergency-glass-repair-baltimore.html",
+      "permanent": true
+    }
+  ]
+}
