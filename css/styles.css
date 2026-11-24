@@ -457,6 +457,43 @@ h2[id] {
   font-size: 0.8rem;
   font-weight: 650;
 }
+.project-photos {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.project-photo-nav,
+.photo-pair + .project-photos {
+  margin-top: 20px;
+}
+.project-photos figure {
+  overflow: hidden;
+  background: var(--surface);
+  border-radius: var(--radius);
+}
+.project-photos a,
+.project-pair a {
+  display: block;
+}
+.project-photos a:focus-visible,
+.project-pair a:focus-visible {
+  outline-offset: -4px;
+}
+.project-photos img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.project-photos figcaption {
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+@media (max-width: 900px) {
+  .card-grid.project-photos {
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 .info-card {
   padding: 28px;
   background: var(--surface);
